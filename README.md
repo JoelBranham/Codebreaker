@@ -12,6 +12,13 @@ The object of this game is to guess the *secret* code in the **fewest** guesses 
 
 The player's input shows to the right of the "Enter Code:" text. After the user makes a first guess, the computer displays the guesses under the "YOUR GUESSES" text. Under "CORRECT", the computer displays the number of digits that are the correct digit **AND** are in the correct spots. Below "MISPLACED", the computer shows the number of digits that are the correct digits but are **NOT** in the correct positions.
 
+##Gameplay
+
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 
-In this example, the input "1234" yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but not in the right position. 
+In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but not in the right position. 
+
+![alt text](http://i.imgur.com/sIfAFtM.jpg)
+
+The player swaps the 1 for a 2 and guesses "2234". This yields 1 correct and 0 misplaced. The only digit that was changed was the first one, so having 1 more correct digit means that the changed digit is the correct one. The player can safely assume that the first digit is a "2".
+Having 0 misplaced after this guess means that the player can assume that a "1" is in the secret code. If "1" was not in the secret code, the number of misplaced would go from 2 to 1 because the "2" was put in its correct position.

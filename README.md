@@ -2,7 +2,7 @@
 ___
 
 ##Introduction
-Welcome to Codebreaker! The code for this project was written for an assignment in a C++ programming course.
+Welcome to Codebreaker! The code for this project was written for a C++ programming course.
 
 ![alt text](http://i.imgur.com/9WxVzoD.jpg)
 

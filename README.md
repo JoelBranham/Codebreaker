@@ -32,4 +32,4 @@ The player guesses "2314" and confirms that the first digit is a "2". There is n
 
 The player confirms that the second digit is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
 
-![alt text](http://i.imgur.com/tStL6No.jpg?)
+![alt text](http://i.imgur.com/PrkpfRn.jpg)

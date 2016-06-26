@@ -9,7 +9,7 @@ Welcome to Codebreaker! The code for this project was written for a C++ programm
 ___
 
 ##Installation
-To download this program, first click [here]() or click the "download or clone" button. Next, find the zip folder in your downloads folder. Unzip the folder to a convenient location. Finally, open the "main" file in a C++ IDE.
+Click [here](https://github.com/JBranflake/Codebreaker/archive/master.zip) to download the zip folder that contains the program files. Next, find the zip folder in your downloads folder. Unzip the folder to a convenient location. Finally, open the "main" file in a C++ IDE.
 
 ___
 

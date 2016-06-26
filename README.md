@@ -38,6 +38,4 @@ How lucky! The player guesses "2165", which results in 2 misplaced. This means t
 
 ![alt text](http://i.imgur.com/nO3Un6i.jpg)
 
-Victory! The secret code was "2156". 
-
-Note: Most games require more than 5 guesses. 
+Victory! The secret code was "2156". *Most* games require more than 5 guesses. 

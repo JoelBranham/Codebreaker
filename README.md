@@ -44,7 +44,7 @@ Note: *Most* games require more than 5 guesses.
 
 ##Customizations
 
-The length and span of digits of the secret code can be changed in the [main file.] (https://github.com/JBranflake/Codebreaker/blob/master/main.cpp#L9) A larger number of digits or a wider range of digits increases difficulty. Here is a chart displaying various settings and their corresponding difficulties.
+The length and span of digits of the secret code can be changed in the [main file.] (https://github.com/JBranflake/Codebreaker/blob/master/main.cpp#L9) An increase in either of these adds difficulty. Here is a chart displaying various settings and their corresponding difficulties.
 
 | Code Span | Code Length | Difficulty|
 |-----------|------------|------------

@@ -10,7 +10,7 @@ The object of this game is to guess the *secret* code in the **fewest** guesses 
 
 ![alt text](http://i.imgur.com/AJRivym.jpg)
 
-The player's input shows to the right of the "Enter Code:" text. After the user makes a guess, the computer displays the guess in the "YOUR GUESSES" collumn. The collumn under "CORRECT" displays the number of digits that are correct **AND** in their correct spots. The collumn under "MISPLACED" shows the number of digits that are correct but are **NOT** in their correct positions.
+The player's input shows to the right of the "Enter Code:" text. After the user makes a guess, the computer displays the guess in the "YOUR GUESSES" column. The column under "CORRECT" displays the number of digits that are correct **AND** in their correct spots. The column under "MISPLACED" shows the number of digits that are correct but are **NOT** in their correct positions.
 
 ##Gameplay
 

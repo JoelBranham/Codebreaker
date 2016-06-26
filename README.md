@@ -44,4 +44,4 @@ Note: *Most* games require more than 5 guesses.
 
 ##Acknowledgements
 
-This project was completed as part of a C++ course. I was provided the random number generator, code generator, and player input functions. I wrote all of the game logic.  
+The professor of my C++ course provided the random number generator and player input functions for this assignment. I wrote the game logic, secret code generator, and header file.   

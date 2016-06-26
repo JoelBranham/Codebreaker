@@ -16,7 +16,7 @@ The player's input shows to the right of the "Enter Code:" text. After the user 
 
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 
-In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but not in the right position. 
+In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but are not in the correct position. 
 
 ![alt text](http://i.imgur.com/sIfAFtM.jpg)
 

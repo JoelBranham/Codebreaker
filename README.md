@@ -30,6 +30,14 @@ The player guesses "2314" and confirms that the first digit is a "2". There is n
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
-The player confirms that the second digit is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
+A guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
+
+How lucky! The player guesses "2165", which results in 2 misplaced. This means that the last two digits of the secret code are "5" and "6". The player simply has to swap the "6" and the "5".
+
+![alt text](http://i.imgur.com/nO3Un6i.jpg)
+
+Victory! The secret code was "2156". 
+
+Note: Most games require more than 5 guesses. 

@@ -1,3 +1,5 @@
+![alt text](http://i.imgur.com/b6TzVuR.jpg)
+
 ##Introduction
 Welcome to Codebreaker! The code for this project was written for an assignment in a C++ programming course.
 

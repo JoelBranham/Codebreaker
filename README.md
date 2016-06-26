@@ -1,12 +1,5 @@
-_________              .___        ___.                             __                    
-\_   ___ \   ____    __| _/  ____  \_ |__  _______   ____  _____   |  | __  ____  _______ 
-/    \  \/  /  _ \  / __ | _/ __ \  | __ \ \_  __ \_/ __ \ \__  \  |  |/ /_/ __ \ \_  __ \
-\     \____(  <_> )/ /_/ | \  ___/  | \_\ \ |  | \/\  ___/  / __ \_|    < \  ___/  |  | \/
- \______  / \____/ \____ |  \___  > |___  / |__|    \___  >(____  /|__|_ \ \___  > |__|   
-        \/              \/      \/      \/              \/      \/      \/     \/         
-
 ##Introduction
-Welcome to Codebreaker! This project was completed as part of a basic C++ programming course.
+Welcome to Codebreaker! The code for this project was written for an assignment in a C++ programming course.
 
 ![alt text](http://i.imgur.com/9WxVzoD.jpg)
 

@@ -136,7 +136,7 @@ string get_player_code() {
 } // end get_player_code()
 
 
-string generate_code() {    
+string generate_code() {    			//generate code
 
 	string code = "";
 
@@ -148,7 +148,7 @@ string generate_code() {
 	
 } // end generate_code()
 
-int randint(int max) {					//random number generator
+int randint(int max) {				//random number generator
 
 	return ( rand() % max );
 

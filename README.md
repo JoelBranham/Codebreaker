@@ -75,4 +75,4 @@ ___
 
 ##Acknowledgements
 
-The professor of my C++ course provided the random number generator and player input functions for this assignment. I wrote the game logic, secret code generator, and header file. The title was made using a text-to-ASCII art generator found on  [this](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Something%20) website.
+The professor of my C++ course provided the random number generator and player input functions for this assignment. I wrote the game logic, secret code generator, and header file. The title was made using a text-to-ASCII-art generator found on  [this](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Something%20) website.

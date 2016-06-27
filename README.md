@@ -24,6 +24,8 @@ ___
 
 ##Example Gameplay
 
+This gameplay is based off of the defaults settings of having a digit range of 0 through 6 and a code length of 4 digits. The example logic provided would need to be changed if the game were played with either of these settings adjusted. See customizations for information on changing these features.
+
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 
 In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but are not in their correct positions. 
@@ -42,17 +44,17 @@ The player also knows that there is not a "3" or a "4" in the secret code. If th
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
-Since the player knows that neither a "3" nor a "4" are in the secret code, he simply moves the "1" to make it easy to discern small changes. A guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
+Since the player knows that neither "3" nor "4" are in the secret code, he simply moves the "1" to make it easy to discern small changes. A guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
 
-Tip: If you are certain certain digits are not in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits are in the secret code.
+Tip: If you are certain that one or more digits are not in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits are in the secret code.
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
 
-How lucky! The player guesses "2165", which results in 2 misplaced. This means that the last two digits of the secret code are "5" and "6". The player simply has to swap the "6" and the "5".
+Because the player knows that neither "3" nor "4" are in the secret code, the player includes the only other two possible digits in his next guess of "2165". This result in 2 misplaced. This means that the last two digits of the secret code are "5" and "6". The player simply has to swap the "6" and the "5" to win the game.
 
 ![alt text](http://i.imgur.com/nO3Un6i.jpg)
 
-Victory! The secret code was "2156".  The computer displays a congratulatory message and the number of guesses. The player is prompted to enter "Y" or "N" for playing another game. 
+Victory! The secret code was "2156".  The computer displays a congratulatory message and the number of guesses. The player is prompted to enter "Y" or "N" to playing another game. 
 
 Note: *Most* games require more than 5 guesses.
 

@@ -24,7 +24,7 @@ ___
 
 ##Example Gameplay
 
-This gameplay is based off of the defaults settings of having a digit range of 0 through 6 and a code length of 4 digits. The example logic provided would need to be changed if the game were played with either of these settings adjusted. See customizations for information on changing these features.
+This gameplay is based off of the defaults settings of having a digit range of 0 through 6 and a code length of 4 digits. The example logic provided would need to be changed if either of these settings were adjusted. See customizations for information on changing these features.
 
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 

@@ -40,13 +40,13 @@ The player can also assume that "1" is in the secret code because there are 0 mi
 
 The player guesses "2314" to confirm that the first digit is a "2". There is now 1 misplaced, so the "1" is not in the correct position. The "1" should either be in the second or fourth digit's place.
 
-The player also knows that there is not a "3" or a "4" in the secret code. If they were, there would be *more* than one misplaced digit.
+The player also knows that there is neither a "3" nor a "4" in the secret code. If one of them was, there would be *more* than one misplaced digit.
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
 Since the player knows that neither "3" nor "4" are in the secret code, he simply moves the "1" to make it easy to discern small changes. A guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is not a "3" or a "4" in the secret code.
 
-Tip: If you are certain that one or more digits are not in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits are in the secret code.
+Tip: If you are certain that one or more digits *are not* in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits *are* in the secret code.
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
 

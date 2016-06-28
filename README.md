@@ -24,11 +24,11 @@ ___
 
 ##Example Gameplay
 
-This gameplay is based off of the defaults settings of having a digit range of 0 through 6 and a code length of 4 digits. The example logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for information on changing these features.
+This gameplay is based off of the defaults settings of having an allowed digit range of 0 through 6 and a code length of 4 digits. The example logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for information on changing these features.
 
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 
-In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the input are in the secret code, but are not in their correct positions. 
+In this example, the player's first guess is "1234". This yields 0 correct and 2 misplaced. This means that two of the digits from the guess are in the secret code, but are not in their correct positions. 
 
 ![alt text](http://i.imgur.com/sIfAFtM.jpg)
 

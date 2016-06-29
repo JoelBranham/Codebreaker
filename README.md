@@ -34,7 +34,7 @@ The player can also assume that "1" is in the secret code because there are 0 mi
 
 ![alt text](http://i.imgur.com/qrvRhZD.jpg?1)
 
-The player guesses "2314" to confirm that the first digit is a "2". There is now 1 misplaced, so the "1" is not in the correct position. The "1" should either be in the second or fourth digit's place.
+The player guesses "2314" to confirm that the first digit is a "2". There is now 1 misplaced, so the "1" is not in the correct position. The "1" is supposed to be in either the second or fourth digit's place.
 
 The player also knows that there is neither a "3" nor a "4" in the secret code. If one of them was, there would be *more* than one misplaced digit.
 

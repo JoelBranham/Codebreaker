@@ -38,9 +38,9 @@ The player also knows that there is neither a "3" nor a "4" in the secret code. 
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
-Since the player knows that neither "3" nor "4" are in the secret code, he simply makes a new guess with only the "1" moved. This makes it easier to discern if the new guess was a step in the right direction. The guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is neither a "3" nor a "4" in the secret code.
+Since the player knows that neither "3" nor "4" are in the secret code, he simply makes a new guess with only the "1" moved. This makes it easier to discern whether or not the new guess is a step in the right direction. The guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1". Since there are 0 misplaced digits, there is neither a "3" nor a "4" in the secret code. 
 
-Tip: If you are certain that one or more digits *are not* in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits *are* in the secret code.
+Tip: If you are certain that one or more digits *are not* in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits *are* in the secret code. If the player had guessed "2135", there could have been a result of  two correct and one misplaced. The player would have no clue which digit (the "1" or the "5") were correct or misplaced.
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
 

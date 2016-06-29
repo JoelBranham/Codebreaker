@@ -6,8 +6,8 @@
 
 using namespace std;
  
-const char CODE_SPAN = 6;
-const int CODE_LENGTH = 4;
+const char CODE_SPAN = 6;		//range of digits allowed in the code (only digits 1 - 6 allowed)
+const int CODE_LENGTH = 4;		//length of code
 
 int main() {
 

@@ -48,7 +48,7 @@ Because the player knows that neither "3" nor "4" are in the secret code, the pl
 
 ![alt text](http://i.imgur.com/nO3Un6i.jpg)
 
-Victory! The secret code was "2156".  The computer displays a congratulatory message and the number of guesses. The player is prompted to enter "Y" or "N" to playing another game. 
+Victory! The secret code was "2156".  The computer displays a congratulatory message and the number of guesses the player made. The player is asked if they would to play another game and prompted to enter "Y" or "N" in response. 
 
 Note: *Most* games require more than 5 guesses.
 

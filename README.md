@@ -40,7 +40,7 @@ The player also knows that there is neither a "3" nor a "4" in the secret code. 
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
-Based on this knowledge that there is neither a "3" nor "4" are in the secret code, the player swaps the "1" and the "3" with the new guess. This makes it easier to discern whether or not the new guess is a step in the right direction. Moving the "3" will not cause any additional correct or misplaced digits to appear.
+Based on this knowledge that there is neither a "3" nor "4" are in the secret code, the player swaps the "1" and the "3" with the new guess. The player does not have to be concerned that moving the "3" will cause any new correct digits. This makes it easy to discern whether or not the "1" is in its correct position.
 
 The guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1".
 

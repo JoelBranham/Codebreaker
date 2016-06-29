@@ -16,7 +16,7 @@ The object of this game is to guess the *secret* code in the **fewest** guesses 
 
 The player's input shows to the right of the "Enter Code:" text. After the user makes a guess, the computer displays the guess in the "YOUR GUESSES" column. The column under "CORRECT" displays the number of digits that are correct **and** in their correct spots. The column under "MISPLACED" shows the number of digits that are correct but are **not** in their correct positions.
 
-Personal Note: It was difficult to ensure that digits were not counted as both correct and misplaced. Also, it was difficult to ensure that, if a digit in a guess were to be in the secret code more than once, it was not counted as more than one misplaced digit. Ex: player gueses "1234" and the secret code is "5622" At the earlier stages of this code, the single misplaced "2" would be counted as two misplaced digits. 
+**Personal Note:** It was difficult to ensure that digits were not counted as both correct and misplaced. Also, it was challenging to make sure that, if a digit in a guess were to be in the secret code more than once, it was not counted as more than one misplaced digit. Example: the player gueses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be counted as two misplaced digits. 
 
 ##Example Gameplay
 
@@ -44,7 +44,7 @@ Based on this knowledge that there is neither a "3" nor "4" are in the secret co
 
 The guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1".
 
-Tip: If you are certain that one or more digits *are not* in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits *are* in the secret code. If the player had guessed "2135", there could have been a result of  two correct and one misplaced. The player would have no clue which digit (the "1" or the "5") was correct and which was misplaced.
+**Tip:** If you are certain that one or more digits *are not* in the secret code, include them in your guesses. This technique makes it much easier to figure out which digits *are* in the secret code. If the player had guessed "2135", there could have been a result of  two correct and one misplaced. The player would have no clue which digit (the "1" or the "5") was correct and which was misplaced.
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
 
@@ -54,7 +54,7 @@ Because the player knows that neither "3" nor "4" are in the secret code, the pl
 
 Victory! The secret code was "2156".  The computer displays a congratulatory message and the number of guesses the player made. The player is asked if they would to play another game and prompted to enter "Y" or "N" in response. 
 
-Note: *Most* games require more than 5 guesses.
+**Note:** *Most* games require more than 5 guesses.
 
 ##Customizations
 

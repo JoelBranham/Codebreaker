@@ -28,7 +28,7 @@ In this example, the player's first guess is "1234". This yields 0 correct and 2
 
 ![alt text](http://i.imgur.com/sIfAFtM.jpg)
 
-The player swaps the 1 for a 2 and guesses "2234". This yields 1 correct and 0 misplaced. The only digit that was changed was the first one, so having 1 more correct digit means that the changed digit is now in its correct position. The player can safely assume that the first digit is a "2".
+The player swaps the 1 for a 2 and guesses "2234". This yields 1 correct and 0 misplaced. The only digit that was changed was the first one, so having 1 more correct digit means that the changed digit in its correct position. The player can safely assume that the first digit is a "2".
 
 The player can also assume that "1" is in the secret code because there are 0 misplaced digits. If "1" was not in the secret code, the number of misplaced would have instead gone from 2 to 1 because the "2" was put in its correct position. 
 

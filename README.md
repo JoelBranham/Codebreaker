@@ -18,7 +18,7 @@ The player's input shows to the right of the "Enter Code:" text. After the user 
 
 ##Example Gameplay
 
-This gameplay is based off of the defaults settings of having an allowed digit range of 1 through 6 and a code length of 4 digits. The example logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for information on changing these features.
+This gameplay usest the defaults settings of having an allowed digit range of 1 through 6 and a set code length of 4 digits. The example game logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for information on changing these features.
 
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 

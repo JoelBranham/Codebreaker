@@ -44,7 +44,7 @@ Tip: If you are certain that one or more digits *are not* in the secret code, in
 
 ![alt text](http://i.imgur.com/PrkpfRn.jpg)
 
-Because the player knows that neither "3" nor "4" are in the secret code, the player includes the only other two possible digits in his next guess of "2165". This results in 2 misplaced digits. This means that the last two digits of the secret code are "5" and "6". The player simply has to swap the "6" and the "5" to win the game.
+Because the player knows that neither "3" nor "4" are in the secret code, the player includes the only other two possible digits in the next guess of "2165". This results in 2 misplaced digits. This means that the last two digits of the secret code are "5" and "6". The player simply has to swap the "6" and the "5" to win the game.
 
 ![alt text](http://i.imgur.com/nO3Un6i.jpg)
 

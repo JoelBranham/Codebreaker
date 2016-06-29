@@ -15,6 +15,8 @@ The object of this game is to guess the *secret* code in the **fewest** guesses 
 ![alt text](http://i.imgur.com/AJRivym.jpg)
 
 The player's input shows to the right of the "Enter Code:" text. After the user makes a guess, the computer displays the guess in the "YOUR GUESSES" column. The column under "CORRECT" displays the number of digits that are correct **and** in their correct spots. The column under "MISPLACED" shows the number of digits that are correct but are **not** in their correct positions.
+*Personal Note:* It was difficult to ensure that digits were not counted as both correct and misplaced. Also, it was difficult to ensure that, if a digit in a guess were to be in the secret code more than once, it was not counted as more than one misplaced digit. Ex: player gueses "1234" and the secret code is "5622" At the earlier stages of this code, the single misplaced "2" would be counted  
+as two misplaced digits. 
 
 ##Example Gameplay
 

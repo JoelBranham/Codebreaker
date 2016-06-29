@@ -16,7 +16,7 @@ The object of this game is to guess the *secret* code in the **fewest** guesses 
 
 The player's input shows to the right of the "Enter Code:" text. After the user makes a guess, the computer displays the guess in the "YOUR GUESSES" column. The column under "CORRECT" displays the number of digits that are correct **and** in their correct spots. The column under "MISPLACED" shows the number of digits that are correct but are **not** in their correct positions.
 
-**Personal Note:** It was difficult to ensure that digits were not counted as both correct and misplaced. Also, it was challenging to make sure that, if a digit in a guess were to be in the secret code more than once, it was not counted as more than one misplaced digit. Example: the player gueses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. 
+**Personal Note:** It was difficult to ensure that digits were not counted as both correct and misplaced. Also, it was challenging to make sure that, if a digit in a guess was in the secret code more than once, it was not counted as more than one misplaced digit. Example: the player gueses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. 
 
 ##Example Gameplay
 
@@ -28,19 +28,19 @@ In this example, the player's first guess is "1234". This yields 0 correct and 2
 
 ![alt text](http://i.imgur.com/sIfAFtM.jpg)
 
-The player swaps the 1 for a 2 and guesses "2234". This yields 1 correct and 0 misplaced. The only digit that was changed was the first one, so having 1 more correct digit means that the changed digit in its correct position. The player can safely assume that the first digit is a "2".
+The player swaps the "1" for a "2" and guesses "2234". This yields 1 correct and 0 misplaced. The only digit that was changed was the first one, so having 1 more correct digit means that the changed digit is in its correct position. The player can safely assume that the first digit is a "2".
 
-The player can also assume that "1" is in the secret code because there are 0 misplaced digits. If "1" was not in the secret code, the number of misplaced would have instead gone from 2 to 1 because the "2" was put in its correct position. 
+It can be assumed that "1" is in the secret code because there are 0 misplaced digits. If "1" was not in the secret code, the number of misplaced would have instead gone from 2 to 1 because the "2" was put in its correct position. 
 
 ![alt text](http://i.imgur.com/qrvRhZD.jpg?1)
 
-The player guesses "2314" to confirm that the first digit is a "2". There is now 1 misplaced, so the "1" is not in the correct position. The "1" is supposed to be in either the second or fourth digit's place.
+The player guesses "2314" to confirm that the first digit is a "2". There is now 1 misplaced, so the "1" is not in the correct position. The "1" is supposed to be either in the second or fourth digit's place.
 
-The player also knows that there is neither a "3" nor a "4" in the secret code. If one of them was, there would be *more* than one misplaced digit.
+The player also knows that there is neither a "3" nor a "4" in the secret code. If either of them were, there would be *more* than one misplaced digit.
 
 ![alt text](http://i.imgur.com/xsgRKsO.jpg?1)
 
-Based on this knowledge that there is neither a "3" nor "4" are in the secret code, the player swaps the "1" and the "3" with the new guess. The player does not have to be concerned that moving the "3" will cause any new correct digits. This makes it easy to discern whether or not the "1" is in its correct position.
+Based on this knowledge that there is neither a "3" nor "4" are in the secret code, the player swaps the "1" and the "3" with the new guess. The player does not have to be concerned that moving the "3" will cause any new correct digit results. This makes it easy to discern whether or not the "1" is in its correct position.
 
 The guess of "2134" yields two correct! The player now knows that the second digit of the secret code is a "1".
 

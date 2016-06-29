@@ -6,8 +6,8 @@
 
 using namespace std;
  
-const char CODE_SPAN = 6;		//range of digits allowed in the code (only digits 1 - 6 allowed)
-const int CODE_LENGTH = 4;		//length of code
+const char CODE_SPAN = 6;		// range of digits allowed in the code (only digits 1 - 6 allowed)
+const int CODE_LENGTH = 4;		// length of code
 
 int main() {
 
@@ -48,7 +48,7 @@ int main() {
 			break;
 			} 
 			
-			for (int x = 0; x < CODE_LENGTH; x++){ 			//checking for correct 
+			for (int x = 0; x < CODE_LENGTH; x++){ 			// checking for correct 
 				if (player[x] == secret_code[x]){
 				correct++;
 				player[x] = 'c';
@@ -56,7 +56,7 @@ int main() {
 				}
 			}
 			
-			for (int x = 0; x < CODE_LENGTH; x++){    		//checking for misplaced
+			for (int x = 0; x < CODE_LENGTH; x++){    		// checking for misplaced
 				for(int i = 0; i < CODE_LENGTH; i++){
 					if (player[x] == secret_code[i]){
 					misplaced++;
@@ -136,7 +136,7 @@ string get_player_code() {
 } // end get_player_code()
 
 
-string generate_code() {    			//generate code
+string generate_code() {    			// generate code
 
 	string code = "";
 
@@ -148,13 +148,13 @@ string generate_code() {    			//generate code
 	
 } // end generate_code()
 
-int randint(int max) {				//random number generator
+int randint(int max) {				// random number generator
 
 	return ( rand() % max );
 
 } 
 
-int randint(int min, int max) {			//random number generator
+int randint(int min, int max) {			// random number generator
 
 	return ( randint( max - min ) + min );
 

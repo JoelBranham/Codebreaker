@@ -66,7 +66,7 @@ The length and span of digits of the secret code can be changed in the ["main"] 
 
 ##Notes
 
-I overcame a couple logical obstacles when writing the code for this game. The first was ensuring that digits were not counted as both correct and misplaced. The second challenge was that, if a digit in a guess was in the secret code more than once, the digit was not counted as more than one misplaced digit. Example of the latter: the player guesses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. The key to preventing both of these mistakes from happening was changing a digit that was counted as correct or misplaced to an alphabetic character that was not a number and thus not able to be found as match when judged against the numbers found in the secret code. 
+I overcame a couple logical obstacles when writing the code for this game. The first was ensuring that digits were not counted as both correct and misplaced. The second challenge was that, if a digit in a guess was in the secret code more than once, the digit was not counted as more than one misplaced digit. Example of the latter: the player guesses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. The key to preventing both of these mistakes from happening was changing a digit that was counted as correct or misplaced to an alphabetic character that was not a number and thus not able to be found as a match when judged against the numbers found in the secret code. 
 
 ##Acknowledgements
 

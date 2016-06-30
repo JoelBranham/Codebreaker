@@ -17,7 +17,7 @@ The player's input shows to the right of the "Enter Code:" text. After the user 
 
 ##Example Gameplay
 
-This gameplay usest the defaults settings of having an allowed digit range of 1 through 6 and a set code length of 4 digits. The example game logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for information on changing these features.
+This gameplay usest the defaults settings of having an allowed digit range of 1 through 6 and a set code length of 4 digits. The example game logic provided would need to be changed if either of these settings were adjusted. See [customizations](https://github.com/JBranflake/Codebreaker/blob/master/README.md#customizations) for instructions on changing these features.
 
 ![alt text](http://i.imgur.com/zm1LqLd.jpg)
 
@@ -66,7 +66,7 @@ The length and span of digits of the secret code can be changed in the ["main"] 
 
 ##Notes
 
-The biggest challenge I faced when writing the code for this game was ensuring that digits were not counted as both correct and misplaced. Also, it was difficult to ensure that, if a digit in a guess was in the secret code more than once, it was not counted as more than one misplaced digit. Example of the latter: the player guesses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. 
+The biggest challenge I faced when writing the code for this game was ensuring that digits were not counted as both correct and misplaced. Also, it was difficult to ensure that, if a digit in a guess was in the secret code more than once, it was not counted as more than one misplaced digit. Example of the latter: the player guesses "1234" and the secret code is "5622". At the earlier stages of this code, the single misplaced "2" would be wrongly counted as two misplaced digits. The key to preventing both of these mistakes from happening was, whenever a digit was counted as correct or misplaced, changing the digt to an alphabetic character that was not a number and thus not able to be found as match when judged against the numbers found in the secret code. 
 
 ##Acknowledgements
 

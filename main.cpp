@@ -11,7 +11,7 @@ const int CODE_LENGTH = 4;		// length of code
 
 int main() {
 
-	srand( time(NULL) );
+	srand(time(NULL));
 
 	string player_guess, secret_code, secret_copy, player, player_copy;
 
@@ -85,7 +85,7 @@ int main() {
 			guessed_code = false;
 		}
 
-	} // end while
+	} 
 
 	cout << "Thanks for playing!\n";
 
